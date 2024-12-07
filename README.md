@@ -47,7 +47,7 @@ This mod may branch out into something bigger, we see.
 
 ## Special Thanks
 
-@dirtbikercj - For helping me get started, showing me how to make this mod, and xplaining how to rework my mod.
+@dirtbikercj - For helping me get started, showing me how to make this mod, and explaining how to rework my mod.
 
 @acidphantasm - Helping me debug why my mod was failing, and helping rework my mod to fit a better flow provided by Cj.
 
