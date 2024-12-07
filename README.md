@@ -47,12 +47,12 @@ This mod may branch out into something bigger, we see.
 
 ## Special Thanks
 
-@dirtbikercj - for helping me get started, and showing me how to make this mod.
+@dirtbikercj - For helping me get started, showing me how to make this mod, and xplaining how to rework my mod.
 
-@acidphantasm - Helping me debug why my mod was failing, rework my mod to fit a better flow.
+@acidphantasm - Helping me debug why my mod was failing, and helping rework my mod to fit a better flow provided by Cj.
 
-@jehree - for trying to assist and making me push to GitHub
+@jehree - For trying to assist and making me push to GitHub, and dealing with my slowness to figure things out.
 
-@sgtlaggy - for the mod example, giving me a little assistance in making this (even though it was indirect)
+@sgtlaggy - For the mod example, giving me a little assistance in making this (even though it was indirect)
 
-@SPTTeam - for the whole ability to make / add this mod to SPT
+@SPTTeam - For the whole ability to make / add this mod to SPT
