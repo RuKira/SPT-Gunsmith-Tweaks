@@ -1,6 +1,5 @@
 {
-    "enabled": true,
+    "defaultRewards": true,
     "LoreAccurate": true,
-
-    "debugLogging": true
+    "debugLogging": false
 }
