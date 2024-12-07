@@ -1,4 +1,5 @@
 {
-    "enabled": true,
-    "LoreAccurate": true
+    "defaultRewards": true,
+    "LoreAccurate": true,
+    "debugLogging": false
 }

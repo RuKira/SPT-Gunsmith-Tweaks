@@ -1,0 +1,2126 @@
+{
+    "639872f9decada40426d3447": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675079a7a4526a19276fb027",
+            "items": [
+                {
+                    "_id": "675079ccc43f367b623af637",
+                    "_tpl": "587df583245977373c4f1129",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675079ccc43f367b623af637",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675079ad6d85aa47d33b5f63",
+            "items": [
+                {
+                    "_id": "675079cf030dc9cfe79e971b",
+                    "_tpl": "6415d33eda439c6a97048b5b",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675079cf030dc9cfe79e971b",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675079b4209092e864cf5592",
+            "items": [
+                {
+                    "_id": "675079dc45c943a15018803e",
+                    "_tpl": "5dff772da3651922b360bf91",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675079dc45c943a15018803e",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675079ba508fcae575865146",
+            "items": [
+                {
+                    "_id": "675079d2ef74cb400ff2e750",
+                    "_tpl": "5dff77c759400025ea5150cf",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675079d2ef74cb400ff2e750",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675079beff282cd662eaee11",
+            "items": [
+                {
+                    "_id": "675079e75941f5faf6c7329c",
+                    "_tpl": "5afd7e445acfc4001637e35a",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675079e75941f5faf6c7329c",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675079c2e57f6bc7c7454cef",
+            "items": [
+                {
+                    "_id": "675079ea95cc0274820db342",
+                    "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675079ea95cc0274820db342",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5ae3267986f7742a413592fe": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675082bce7bfb3ea5f342aea",
+            "items": [
+                {
+                    "_id": "675082c052af424beb67ffb5",
+                    "_tpl": "5c0111ab0db834001966914d",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675082c052af424beb67ffb5",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675082c5eb33ca3457850364",
+            "items": [
+                {
+                    "_id": "675082c9bb06572827961a69",
+                    "_tpl": "58272d7f2459774f6311ddfd",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675082c9bb06572827961a69",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675082d064383a9f81792c66",
+            "items": [
+                {
+                    "_id": "675082d59d6c0314fb0ec26c",
+                    "_tpl": "5c87ca002e221600114cb150",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675082d59d6c0314fb0ec26c",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675082dbd08fb6d98e257c83",
+            "items": [
+                {
+                    "_id": "675082ded8b4c46ac5544ea2",
+                    "_tpl": "5cc9c20cd7f00c001336c65d",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675082ded8b4c46ac5544ea2",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }  
+    ],
+    "5ae3270f86f77445ba41d4dd": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675085970c7e09fd0bd1707e",
+            "items": [
+                {
+                    "_id": "6750859a1d72f1fa207d527c",
+                    "_tpl": "5947f92f86f77427344a76b1",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750859a1d72f1fa207d527c",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675085a04e4d8e584b02cbd1",
+            "items": [
+                {
+                    "_id": "675085a3e771a92bbdd206f4",
+                    "_tpl": "57cff947245977638e6f2a19",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675085a3e771a92bbdd206f4",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675085a91b22eaf9d2c951a7",
+            "items": [
+                {
+                    "_id": "675085ace88c46c030b33cdb",
+                    "_tpl": "5b7be4895acfc400170e2dd5",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675085ace88c46c030b33cdb",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675085b2ff324f266e384d02",
+            "items": [
+                {
+                    "_id": "675085b68b62ec817ad76b4e",
+                    "_tpl": "5d2c76ed48f03532f2136169",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675085b68b62ec817ad76b4e",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5ac244eb86f7741356335af1": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67508ffdb9add1f7b640dd47",
+            "items": [
+                {
+                    "_id": "67509001c3393929d741c013",
+                    "_tpl": "59db7e1086f77448be30ddf3", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509001c3393929d741c013",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509006f1fc4102327c754d",
+            "items": [
+                {
+                    "_id": "67509009ae16fe9d0d7c2d13",
+                    "_tpl": "5c78f2792e221600106f4683", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509009ae16fe9d0d7c2d13",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750900f485d37a2811c72f1",
+            "items": [
+                {
+                    "_id": "6750901220fd8205771499bf",
+                    "_tpl": "55d35ee94bdc2d61338b4568", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750901220fd8205771499bf",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090197a945a692b583072",
+            "items": [
+                {
+                    "_id": "6750901cc4dc688d03d58c50",
+                    "_tpl": "56ea8d2fd2720b7c698b4570", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750901cc4dc688d03d58c50",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509045dae21bc4ff8e02a4",
+            "items": [
+                {
+                    "_id": "6750904855eb7c41229802b7",
+                    "_tpl": "651a8bf3a8520e48047bf708", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750904855eb7c41229802b7",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5ae3277186f7745973054106": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750904dd46003f3e73a1385",
+            "items": [
+                {
+                    "_id": "67509050a1a5d11cd1521fa7",
+                    "_tpl": "59ecc28286f7746d7a68aa8c", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509050a1a5d11cd1521fa7",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509056c66228828fea81a7",
+            "items": [
+                {
+                    "_id": "6750905cdcf1bf4e1d8c9bb5",
+                    "_tpl": "5c1bc4812e22164bef5cfde7", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750905cdcf1bf4e1d8c9bb5",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090613818835515d2aa4f",
+            "items": [
+                {
+                    "_id": "67509064c0052d3c6d59ce95",
+                    "_tpl": "5bed61680db834001d2c45ab", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509064c0052d3c6d59ce95",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750906903421d89148b017d",
+            "items": [
+                {
+                    "_id": "6750906b0ba6847d69d74f07",
+                    "_tpl": "5a5f1ce64f39f90b401987bc", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750906b0ba6847d69d74f07",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "639872fa9b4fb827b200d8e5": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509071f6bd0c21d2b90e69",
+            "items": [
+                {
+                    "_id": "675090742f149c5818fe84b5",
+                    "_tpl": "5c920e902e221644f31c3c99", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090742f149c5818fe84b5",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090794699d0bc552915a2",
+            "items": [
+                {
+                    "_id": "6750907c1211cd8fbc492d1a",
+                    "_tpl": "5cc9c20cd7f00c001336c65d", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750907c1211cd8fbc492d1a",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090811470385d2b66ca5f",
+            "items": [
+                {
+                    "_id": "6750908493e0e1098552bab1",
+                    "_tpl": "5c6beec32e221601da3578f2", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750908493e0e1098552bab1",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750908a5df41774ae4422c6",
+            "items": [
+                {
+                    "_id": "6750908de75a42ae567a1a3e",
+                    "_tpl": "587de4282459771bca0ec90b", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750908de75a42ae567a1a3e",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5ae327c886f7745c7b3f2f3f": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509093f1097198c6eb4d9f",
+            "items": [
+                {
+                    "_id": "67509097c39a942bca18bbe3",
+                    "_tpl": "5cbda392ae92155f3c17c39f", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509097c39a942bca18bbe3",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750909e4e2fce86297ac46d",
+            "items": [
+                {
+                    "_id": "675090a445a93e057eaaff81",
+                    "_tpl": "5c87ca002e221600114cb150", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090a445a93e057eaaff81",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090aaf8bf9751fe38d4b1",
+            "items": [
+                {
+                    "_id": "675090ad4124db0e7a975530",
+                    "_tpl": "5d2c76ed48f03532f2136169", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090ad4124db0e7a975530",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090b63f6461d21a729272",
+            "items": [
+                {
+                    "_id": "675090b9c36c4cf0892bb8b1",
+                    "_tpl": "5947f92f86f77427344a76b1", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090b9c36c4cf0892bb8b1",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090be6f1a9ffd4d8ac668",
+            "items": [
+                {
+                    "_id": "675090c10360553b83ea0805",
+                    "_tpl": "5ac78eaf5acfc4001926317a", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090c10360553b83ea0805",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090c787ca088b935acb0a",
+            "items": [
+                {
+                    "_id": "675090ca4aa0669556f637c9",
+                    "_tpl": "5b222d405acfc400153af4fe", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090ca4aa0669556f637c9",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "639872fc93ae507d5858c3a6": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090d293d47e5dbb88b77d",
+            "items": [
+                {
+                    "_id": "675090d5b8531502bd70f839",
+                    "_tpl": "5fbbc383d5cb881a7363194a", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090d5b8531502bd70f839",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090da839785858927f2db",
+            "items": [
+                {
+                    "_id": "675090df8774a580f25f9296",
+                    "_tpl": "5a32a064c4a28200741e22de", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090df8774a580f25f9296",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090e58da6bae371ac7dd7",
+            "items": [
+                {
+                    "_id": "675090e86ee51e4414b13c34",
+                    "_tpl": "5fb655b748c711690e3a8d5a", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090e86ee51e4414b13c34",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090ed33035d3302c6002f",
+            "items": [
+                {
+                    "_id": "675090f3810d5a4ef18b2761",
+                    "_tpl": "5649be884bdc2d79388b4577", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090f3810d5a4ef18b2761",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675090f898cc4c60862dbc0a",
+            "items": [
+                {
+                    "_id": "675090fb3f9cd0d5a92982e5",
+                    "_tpl": "5fbbaa86f9986c4cff3fe5f6", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675090fb3f9cd0d5a92982e5",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5b47799d86f7746c5d6a5fd8": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509100093b6747e8b4c370",
+            "items": [
+                {
+                    "_id": "6750910240735a2e9baf0278",
+                    "_tpl": "64806bdd26c80811d408d37a", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750910240735a2e9baf0278",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750910c398e683d167b6ea9",
+            "items": [
+                {
+                    "_id": "6750910f81cd06a3999f1db7",
+                    "_tpl": "5b07dd285acfc4001754240d", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750910f81cd06a3999f1db7",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5ac244c486f77413e12cf945": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750911551384364fba6376d",
+            "items": [
+                {
+                    "_id": "67509118e5b69e8fb25746d2",
+                    "_tpl": "59bffc1f86f77435b128b872", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509118e5b69e8fb25746d2",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750911e665ebbfe7f19881d",
+            "items": [
+                {
+                    "_id": "67509122df6689a1aeb94705",
+                    "_tpl": "59bffbb386f77435b379b9c2", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509122df6689a1aeb94705",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750912782f8428c658daaa7",
+            "items": [
+                {
+                    "_id": "6750912aae48fd5dcb8c378e",
+                    "_tpl": "651a8bf3a8520e48047bf708", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750912aae48fd5dcb8c378e",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "639872fe8871e1272b10ccf6": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509130f2650b9c0e7689e4",
+            "items": [
+                {
+                    "_id": "67509135ea1cd3788be0d8aa",
+                    "_tpl": "55d4887d4bdc2d962f8b4570", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509135ea1cd3788be0d8aa",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750913a6ca9944952de9956",
+            "items": [
+                {
+                    "_id": "6750913d91f4ec2622361c61",
+                    "_tpl": "5c6d10fa2e221600106f3f23", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750913d91f4ec2622361c61",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091436efec302daa680ac",
+            "items": [
+                {
+                    "_id": "67509146d90256e24fab10e8",
+                    "_tpl": "6269220d70b6c02e665f2635", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509146d90256e24fab10e8",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750914c30a6adca38353eb4",
+            "items": [
+                {
+                    "_id": "6750914f6b833a0afc294bb0",
+                    "_tpl": "5bb20d92d4351e00853263eb", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750914f6b833a0afc294bb0",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091546051bdc0acfdba05",
+            "items": [
+                {
+                    "_id": "675091580b6795407710a277",
+                    "_tpl": "5c7fb51d2e2216001219ce11", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091580b6795407710a277",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750915df6130c67f8caeb42",
+            "items": [
+                {
+                    "_id": "6750916026c5fde13b362007",
+                    "_tpl": "5b7be4895acfc400170e2dd5", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750916026c5fde13b362007",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750916753e8eb89d3fa2d86",
+            "items": [
+                {
+                    "_id": "6750916a7ef9822583f1b730",
+                    "_tpl": "5c06595c0db834001a66af6c", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750916a7ef9822583f1b730",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509170069bb34ed94c2654",
+            "items": [
+                {
+                    "_id": "675091721efcda1f398971a5",
+                    "_tpl": "5bc09a18d4351e003562b68e", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091721efcda1f398971a5",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509177557a9dc847a11f53",
+            "items": [
+                {
+                    "_id": "6750917a97c5afa70cb9337f",
+                    "_tpl": "5bc09a30d4351e00367fb7c8", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750917a97c5afa70cb9337f",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5ae3280386f7742a41359364": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509187e2b95d0f582b74d2",
+            "items": [
+                {
+                    "_id": "6750918ca9ced55f6ec85b60",
+                    "_tpl": "544909bb4bdc2d6f028b4577", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750918ca9ced55f6ec85b60",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091926d52c8831754f4ef",
+            "items": [
+                {
+                    "_id": "67509197b48bea78705f43de",
+                    "_tpl": "5a9e81fba2750c00164f6b11", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509197b48bea78705f43de",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750919dd4df0b73e9906d03",
+            "items": [
+                {
+                    "_id": "6750919f039e29701b728fff",
+                    "_tpl": "5a9eb32da2750c00171b3f9c", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750919f039e29701b728fff",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5b47749f86f7746c5d6a5fd4": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091a350364322fcd50f40",
+            "items": [
+                {
+                    "_id": "675091a69ad43771b4de7c36",
+                    "_tpl": "5947f92f86f77427344a76b1", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091a69ad43771b4de7c36",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091ab6becc3193e8ce16a",
+            "items": [
+                {
+                    "_id": "675091afd5dba995699fcea8",
+                    "_tpl": "5fbbaa86f9986c4cff3fe5f6", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091afd5dba995699fcea8",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091b4106d888cc9388bd0",
+            "items": [
+                {
+                    "_id": "675091b79b1d017bbfa25daa",
+                    "_tpl": "588226ef24597767af46e39c", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091b79b1d017bbfa25daa",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091bb66e9becc2cbef0ce",
+            "items": [
+                {
+                    "_id": "675091bed73fb7886a6845a1",
+                    "_tpl": "5b3a337e5acfc4704b4a19a0", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091bed73fb7886a6845a1",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091c3d8c8ee7e652302a0",
+            "items": [
+                {
+                    "_id": "675091c5996daf04ab1d2a73",
+                    "_tpl": "5c0548ae0db834001966a3c2", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091c5996daf04ab1d2a73",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091c9fab19813c45df981",
+            "items": [
+                {
+                    "_id": "675091cc6c4c1389785e781f",
+                    "_tpl": "6130ca3fd92c473c77020dbd", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091cc6c4c1389785e781f",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091c9fab19813c45df981",
+            "items": [
+                {
+                    "_id": "675091cc6c4c1389785e781f",
+                    "_tpl": "5649af884bdc2d1b2b8b4589", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091cc6c4c1389785e781f",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5b477b6f86f7747290681823": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091d7253443752582d462",
+            "items": [
+                {
+                    "_id": "675091dac1d51950a9cede00",
+                    "_tpl": "5b0e794b5acfc47a877359b2", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091dac1d51950a9cede00",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091dfcaf38f057119eaeb",
+            "items": [
+                {
+                    "_id": "675091e24b3bb75ffebd8a57",
+                    "_tpl": "59d6272486f77466146386ff", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091e24b3bb75ffebd8a57",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091e7d01cbb59cd3853a5",
+            "items": [
+                {
+                    "_id": "675091ea49c9bc35e8a78828",
+                    "_tpl": "5a9fbacda2750c00141e080f", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091ea49c9bc35e8a78828",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091f1be60ff2c2bdcec9c",
+            "items": [
+                {
+                    "_id": "675091f3ae49f1fbad5a824f",
+                    "_tpl": "5d2c76ed48f03532f2136169", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091f3ae49f1fbad5a824f",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "639873003693c63d86328f25": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675091f9816903632738644f",
+            "items": [
+                {
+                    "_id": "675091fd3b6e0ea6df29bdba",
+                    "_tpl": "6197b229af1f5202c57a9bea", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675091fd3b6e0ea6df29bdba",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092033fa46daf05abfd10",
+            "items": [
+                {
+                    "_id": "6750920514b1a8fee1c9ca45",
+                    "_tpl": "5dfce88fe9dc277128008b2e", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750920514b1a8fee1c9ca45",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750920aaefb4456a0ff4361",
+            "items": [
+                {
+                    "_id": "6750920c4fffabd8f941a00c",
+                    "_tpl": "5e01e9e273d8eb11426f5bc3", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750920c4fffabd8f941a00c",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509211f48a74529ad451e3",
+            "items": [
+                {
+                    "_id": "67509213ead8feddb5807c63",
+                    "_tpl": "6516b129609aaf354b34b3a8", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509213ead8feddb5807c63",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5b477f7686f7744d1b23c4d2": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750921929aee52b1a456935",
+            "items": [
+                {
+                    "_id": "6750921c10a0a0db1a2527fb",
+                    "_tpl": "5aaf8a0be5b5b00015693243", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750921c10a0a0db1a2527fb",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509221d97b89bf825dacb5",
+            "items": [
+                {
+                    "_id": "6750922785db1f93a56367ca",
+                    "_tpl": "58d399e486f77442e0016fe7", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750922785db1f93a56367ca",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750922b0237397b7b237f44",
+            "items": [
+                {
+                    "_id": "6750922e2882a267d7485961",
+                    "_tpl": "58d39d3d86f77445bb794ae7", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750922e2882a267d7485961",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509232ec5a6afc4bf0c133",
+            "items": [
+                {
+                    "_id": "67509234b87d50d395934717",
+                    "_tpl": "57fd23e32459772d0805bcf1", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509234b87d50d395934717",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509239e2d220b6c3374337",
+            "items": [
+                {
+                    "_id": "6750923c121b03b798a43e04",
+                    "_tpl": "5addbfef5acfc400185c2857",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750923c121b03b798a43e04",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "63987301e11ec11ff5504036": [
+        {
+            "id": "6750924336d3e6b01db5d53e",
+            "index": 2,
+            "items": [
+                {
+                    "_id": "67509246f8e8dabe87367f98",
+                    "_tpl": "5a339805c4a2826c6e06d73d",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509246f8e8dabe87367f98",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "id": "6750924b18957ba0d9e7bb94",
+            "index": 2,
+            "items": [
+                {
+                    "_id": "6750924d004d9ea6a72e5283",
+                    "_tpl": "5649be884bdc2d79388b4577",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750924d004d9ea6a72e5283",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "id": "67509254e5ab5e544650c72b",
+            "index": 2,
+            "items": [
+                {
+                    "_id": "67509256ac7e1840344fedb3",
+                    "_tpl": "5fbbaa86f9986c4cff3fe5f6",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509256ac7e1840344fedb3",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "id": "6750925c4fa4627c741aa6f6",
+            "index": 3,
+            "items": [
+                {
+                    "_id": "6750925e0f5066d3bf875aec",
+                    "_tpl": "5ef366938cef260c0642acad",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750925e0f5066d3bf875aec",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "id": "6750926730f9f6cabedcae6e",
+            "index": 3,
+            "items": [
+                {
+                    "_id": "6750926c9a3c3e8700b128c2",
+                    "_tpl": "5ef61964ec7f42238c31e0c1",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750926c9a3c3e8700b128c2",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "id": "67509273933f5b59f3187a46",
+            "index": 3,
+            "items": [
+                {
+                    "_id": "6750927529c9da993301531e",
+                    "_tpl": "5ef369b08cef260c0642acaf",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750927529c9da993301531e",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "id": "675092798af96212f9cfaf63",
+            "index": 3,
+            "items": [
+                {
+                    "_id": "6750927c4dacee3fb43b83ea",
+                    "_tpl": "5cc9c20cd7f00c001336c65d",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750927c4dacee3fb43b83ea",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "5b47825886f77468074618d3": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509282ae9ee27f130d8d5e",
+            "items": [
+                {
+                    "_id": "675092859e7b9552789b1663",
+                    "_tpl": "5b30bc285acfc47a8608615d",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092859e7b9552789b1663",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750928c768c1021a35f75be",
+            "items": [
+                {
+                    "_id": "6750928e70bd242a0e07ebc1",
+                    "_tpl": "64806bdd26c80811d408d37a",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750928e70bd242a0e07ebc1",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750929420a9ac29be963b5c",
+            "items": [
+                {
+                    "_id": "67509298d6d2c4afffa2c19f",
+                    "_tpl": "5b2cfa535acfc432ff4db7a0",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509298d6d2c4afffa2c19f",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750929dde8cf9c69d423bb6",
+            "items": [
+                {
+                    "_id": "675092a09f2972010db11abc",
+                    "_tpl": "59db3a1d86f77429e05b4e92",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092a09f2972010db11abc",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092a50aa6a0745238ae4c",
+            "items": [
+                {
+                    "_id": "675092a871d1d95fa5574d20",
+                    "_tpl": "55d35ee94bdc2d61338b4568",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092a871d1d95fa5574d20",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092ad57a00f87e61eb96f",
+            "items": [
+                {
+                    "_id": "675092b0a80b97875ddff1ca",
+                    "_tpl": "56ea8180d2720bf2698b456a",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092b0a80b97875ddff1ca",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092b4d9de68696cdde7fb",
+            "items": [
+                {
+                    "_id": "675092b6215fcb05d7f90a22",
+                    "_tpl": "56eabcd4d2720b66698b4574",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092b6215fcb05d7f90a22",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092ba69e1be41c89a1ce1",
+            "items": [
+                {
+                    "_id": "675092bedac30450033ee21a",
+                    "_tpl": "591aef7986f774139d495f03",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092bedac30450033ee21a",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "64f83bb69878a0569d6ecfbe": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092c3ba1594f7967c754c",
+            "items": [
+                {
+                    "_id": "675092c6babe36b3e7473576",
+                    "_tpl": "5bbdb8bdd4351e4502011460",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092c6babe36b3e7473576",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092cb84955f0dbba37f01",
+            "items": [
+                {
+                    "_id": "675092cd2a9c49f2814cb7a0",
+                    "_tpl": "5f6340d3ca442212f4047eb2",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092cd2a9c49f2814cb7a0",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092d2ca7124a42f92237b",
+            "items": [
+                {
+                    "_id": "675092d46ce3306f6eda8103",
+                    "_tpl": "5a800961159bd4315e3a1657",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092d46ce3306f6eda8103",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092da054196eb4b0a09b3",
+            "items": [
+                {
+                    "_id": "675092dc937210903d910d6b",
+                    "_tpl": "59f9d81586f7744c7506ee62",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092dc937210903d910d6b",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092e08b53cbe0ed824d1f",
+            "items": [
+                {
+                    "_id": "675092e294e8bbdc928f8e38",
+                    "_tpl": "5c87a07c2e2216001219d4a2",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092e294e8bbdc928f8e38",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092e7ae351e7a01f1c720",
+            "items": [
+                {
+                    "_id": "675092e965a27723a98f2b6c",
+                    "_tpl": "6113cce3d92c473c770200c7",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092e965a27723a98f2b6c",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "64f83bcdde58fc437700d8fa": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092ef6b51eebf7264a301",
+            "items": [
+                {
+                    "_id": "675092f1eabe96111184473b",
+                    "_tpl": "5d025cc1d7ad1a53845279ef",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092f1eabe96111184473b",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092f6864643b2542a84fd",
+            "items": [
+                {
+                    "_id": "675092f9484da94d530bd201",
+                    "_tpl": "5df8f535bb49d91fb446d6b0",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675092f9484da94d530bd201",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675092ff9fd2070147fb4ecf",
+            "items": [
+                {
+                    "_id": "675093022f2d098df6677938",
+                    "_tpl": "5d44069ca4b9361ebd26fc37",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675093022f2d098df6677938",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750930ce05fac807353474c",
+            "items": [
+                {
+                    "_id": "67509306e908e129f52401ac",
+                    "_tpl": "6269220d70b6c02e665f2635",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509306e908e129f52401ac",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750931140652a7a60dd7023",
+            "items": [
+                {
+                    "_id": "6750931338c18fe65fd3691b",
+                    "_tpl": "5d2369418abbc306c62e0c80",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750931338c18fe65fd3691b",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750931a7205721e2f9af740",
+            "items": [
+                {
+                    "_id": "6750931d8c1394b99aefe289",
+                    "_tpl": "5b7be4895acfc400170e2dd5",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750931d8c1394b99aefe289",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509323fae53b1a6f1a80b0",
+            "items": [
+                {
+                    "_id": "67509326cf42ffc280bbd4b6",
+                    "_tpl": "5b057b4f5acfc4771e1bd3e9",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509326cf42ffc280bbd4b6",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750932d80e35e245e9b4675",
+            "items": [
+                {
+                    "_id": "67509330575903d69f2bd702",
+                    "_tpl": "5649a2464bdc2d91118b45a8",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509330575903d69f2bd702",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675093393fd7f49918eedff9",
+            "items": [
+                {
+                    "_id": "6750933c0fc38c8e1ed38d26",
+                    "_tpl": "577d128124597739d65d0e56",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750933c0fc38c8e1ed38d26",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509340c71323581f954873",
+            "items": [
+                {
+                    "_id": "67509345354a97ac59c170e3",
+                    "_tpl": "577d141e24597739c5255e01",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509345354a97ac59c170e3",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ],
+    "64f83bd983cfca080a362c82": [
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750934b1b7da4536e9abea5",
+            "items": [
+                {
+                    "_id": "6750934d7f9908e32161b2f9",
+                    "_tpl": "6491c6f6ef312a876705191b",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750934d7f9908e32161b2f9",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509352979353c88d8dee2a",
+            "items": [
+                {
+                    "_id": "675093557f4e63abdee53c59",
+                    "_tpl": "646371faf2404ab67905c8e9", 
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675093557f4e63abdee53c59",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509359471a776e16f0c5e1",
+            "items": [
+                {
+                    "_id": "6750935cac2e61b901ecb945",
+                    "_tpl": "6492ef63cfcf7c89e701abf1",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750935cac2e61b901ecb945",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675093609dd00a83de04274d",
+            "items": [
+                {
+                    "_id": "675093641d96c2764dfbc625",
+                    "_tpl": "6492d7847363b8a52206bc52",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "675093641d96c2764dfbc625",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509367060c646700d0f772",
+            "items": [
+                {
+                    "_id": "6750936b073a57cd64097bfb",
+                    "_tpl": "5649ad3f4bdc2df8348b4585",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750936b073a57cd64097bfb",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675093700ef6e2b52926c0e2",
+            "items": [
+                {
+                    "_id": "67509372b5a1e85e1bf0d100",
+                    "_tpl": "5a0c59791526d8dba737bba7",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509372b5a1e85e1bf0d100",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "67509378627fd5abab7e4a9a",
+            "items": [
+                {
+                    "_id": "6750937a8c07122db1cc146b",
+                    "_tpl": "5cf638cbd7f00c06595bc936",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "6750937a8c07122db1cc146b",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675093808b692d7fc9309fbb",
+            "items": [
+                {
+                    "_id": "67509382adac582c8bae3843",
+                    "_tpl": "5cc9c20cd7f00c001336c65d",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509382adac582c8bae3843",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "675093878c1c3e82f907ccae",
+            "items": [
+                {
+                    "_id": "67509389fb51235b74970e2c",
+                    "_tpl": "5947f92f86f77427344a76b1",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509389fb51235b74970e2c",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        },
+        {
+            "findInRaid": true,
+            "index": 1,
+            "id": "6750938c4ea584b383340e69",
+            "items": [
+                {
+                    "_id": "67509390365bb819f65bcfe9",
+                    "_tpl": "5cf639aad7f00c065703d455",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ],
+            "target": "67509390365bb819f65bcfe9",
+            "type": "Item",
+            "unknown": false,
+            "value": 1
+        }
+    ]
+
+}
