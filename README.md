@@ -49,7 +49,7 @@ This mod may branch out into something bigger, we see.
 
 @dirtbikercj - for helping me get started, and showing me how to make this mod.
 
-@acidphantasm - for helping me debug why my mod was failing, and for helping debug my issue.
+@acidphantasm - Helping me debug why my mod was failing, rework my mod to fit a better flow.
 
 @jehree - for trying to assist and making me push to GitHub
 
