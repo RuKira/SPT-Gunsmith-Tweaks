@@ -17,11 +17,11 @@ Dose not change (Lore Accurate):
 
 ## Config
 
-**Enabled** -
+**defaultRewards** -
 
 This will disable or enable the mod itself, this exist for people that want to quickly disable the mod without having to uninstall it... for some reason?
 
-**LoreAccurate** -
+**loreAccurate** -
 
 Mechanic needs you to build a gun, sometimes he has the parts, sometimes he doesn't.
 
@@ -31,13 +31,11 @@ I have hand selected parts for each gunsmith to give the player to build that I 
 
 This feature mainly exist for my friends and I, so there's a config to straight up disable this feature. 
 
-If "Enabled" is disabled this is also disabled.
+If defaultRewards is disabled this is also disabled.
 
 Enabled by default.
 
 ## Planned Features
-
-Mod Overhaul, Mod.ts getting kinda big - Will implement later.
 
 Updated descriptions for Mechanic Gunsmith Quest to fit my new system.
 
