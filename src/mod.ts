@@ -33,17 +33,18 @@ class Mod implements IPostDBLoadMod {
                 }
             }
 			if (config.LoreAccurate) { // Enable or disable lore accurate rewards
-				console.log(`${logPrefix} Lore accurate rewards enabled.`);
+				if (config.debugLogging) console.log(`${logPrefix} Lore accurate rewards enabled.`);
 				for (const quest in loreAccurate) {
 					const gunsmithQuest = loreAccurate[quest]
 					for (const reward in gunsmithQuest) {
 						if (config.debugLogging) {
 							const itemName = itemHelper.getItemName(gunsmithQuest[reward].items[0]._tpl)
-							console.log(`${logPrefix} Quest: ${questTable[quest].QuestName} || Reward: ${itemName} || Description: ${descriptions[quest].description}`);
+							console.log(`${logPrefix} Quest: ${questTable[quest].QuestName} || Reward: ${itemName}`);
 						}
 						questTable[quest].rewards.Started.push(gunsmithQuest[reward]);
-                        questTable[quest].description = descriptions[quest].description;
 					}
+                    if (config.debugLogging) console.log(`${logPrefix} Quest: ${questTable[quest].QuestName} || Description: ${descriptions[quest].description}`);
+                    questTable[quest].description = descriptions[quest].description;
 			    }
     	    }
 		    else console.log(`${logPrefix} Gunsmith tweaks are disabled.`);
