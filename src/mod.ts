@@ -6,6 +6,7 @@ import { ItemHelper } from "@spt/helpers/ItemHelper";
 
 import config from "../config/config.json";
 import defaultRewards = require("../db/Default.json");
+import descriptions = require("../db/Descriptions.json");
 import loreAccurate = require("../db/LoreAccurate.json");
 
 class Mod implements IPostDBLoadMod {
@@ -38,14 +39,15 @@ class Mod implements IPostDBLoadMod {
 					for (const reward in gunsmithQuest) {
 						if (config.debugLogging) {
 							const itemName = itemHelper.getItemName(gunsmithQuest[reward].items[0]._tpl)
-							console.log(`${logPrefix} Quest: ${questTable[quest].QuestName} || Reward: ${itemName}`);
+							console.log(`${logPrefix} Quest: ${questTable[quest].QuestName} || Reward: ${itemName} || Description: ${descriptions[quest].description}`);
 						}
 						questTable[quest].rewards.Started.push(gunsmithQuest[reward]);
+                        questTable[quest].description = descriptions[quest].description;
 					}
-				}
-			}
-    	}
-		else console.log(`${logPrefix} Gunsmith tweaks are disabled.`);
+			    }
+    	    }
+		    else console.log(`${logPrefix} Gunsmith tweaks are disabled.`);
+        }
 	}
 }
 
