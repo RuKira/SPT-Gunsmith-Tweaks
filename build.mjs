@@ -29,11 +29,10 @@
  * @version v1.0.0
  */
 
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import fs from "fs-extra";
-import os from "os";
-import path from "path";
-import { fileURLToPath } from "url";
-import { dirname } from "path";
 import ignore from "ignore";
 import archiver from "archiver";
 import winston from "winston";
@@ -116,14 +115,13 @@ async function main() {
 
         // Create a zip archive of the project files.
         logger.log("info", "Beginning folder compression...");
-        const zipFileName = `${projectName}-${packageJson.version}.zip`;
-        const zipFilePath = path.join(path.dirname(projectDir), zipFileName);
+        const zipFilePath = path.join(path.dirname(projectDir), `${projectName}.zip`);
         await createZipFile(projectDir, zipFilePath, "user/mods/" + projectName);
         logger.log("success", "Archive successfully created.");
         logger.log("info", zipFilePath);
 
         // Move the zip file inside of the project directory, within the temporary working directory.
-        const zipFileInProjectDir = path.join(projectDir, zipFileName);
+        const zipFileInProjectDir = path.join(projectDir, `${projectName}.zip`);
         await fs.move(zipFilePath, zipFileInProjectDir);
         logger.log("success", "Archive successfully moved.");
         logger.log("info", zipFileInProjectDir);
@@ -136,7 +134,7 @@ async function main() {
         logger.log("success", "------------------------------------");
         logger.log("success", "Build script completed successfully!");
         logger.log("success", "Your mod package has been created in the 'dist' directory:");
-        logger.log("success", `/${path.relative(process.cwd(), path.join(distDir, zipFileName))}`);
+        logger.log("success", `/${path.relative(process.cwd(), path.join(distDir, `${projectName}.zip`))}`);
         logger.log("success", "------------------------------------");
         if (!verbose) {
             logger.log("success", "To see a detailed build log, use `npm run buildinfo`.");
@@ -166,7 +164,7 @@ async function main() {
  * @returns {string} The absolute path of the current working directory.
  */
 function getCurrentDirectory() {
-    return dirname(fileURLToPath(import.meta.url));
+    return path.dirname(fileURLToPath(import.meta.url));
 }
 
 /**
@@ -214,17 +212,21 @@ async function loadPackageJson(currentDir) {
 }
 
 /**
- * Returns the project name constructed from the `package.json` file.
- * The name is created by concatenating the author and project names.
+ * Constructs a descriptive name for the mod package using details from the `package.json` file. The name is created by
+ * concatenating the project name, version, and a timestamp, resulting in a unique and descriptive file name for each
+ * build. This name is used as the base name for the temporary working directory and the final ZIP archive, helping to
+ * identify different versions of the mod package easily.
  *
  * @param {Object} packageJson - A JSON object containing the contents of the `package.json` file.
  * @returns {string} A string representing the constructed project name.
  */
 function createProjectName(packageJson) {
-    // Remove any non-alphanumeric characters from the name.
+    // Remove any non-alphanumeric characters from the author and name.
     const author = packageJson.author.replace(/\W/g, "");
-    const project = packageJson.name.replace(/\W/g, "");
-    return `${author}-${project}`
+    const name = packageJson.name.replace(/\W/g, "");
+
+    // Ensure the name is lowercase, as per the package.json specification.
+    return `${author}-${name}`.toLowerCase();
 }
 
 /**
@@ -342,15 +344,14 @@ async function createZipFile(directoryToZip, zipFilePath, containerDirName) {
             zlib: { level: 9 },
         });
 
-        // Set up an event listener for the 'close' event to resolve
-        // the promise when the archiver has finalized.
+        // Set up an event listener for the 'close' event to resolve the promise when the archiver has finalized.
         output.on("close", function () {
             logger.log("info", "Archiver has finalized. The output and the file descriptor have closed.");
             resolve();
         });
 
-        // Set up an event listener for the 'warning' event to handle warnings
-        // appropriately, logging them or rejecting the promise based on the error code.
+        // Set up an event listener for the 'warning' event to handle warnings appropriately, logging them or rejecting
+        // the promise based on the error code.
         archive.on("warning", function (err) {
             if (err.code === "ENOENT") {
                 logger.log("warn", `Archiver issued a warning: ${err.code} - ${err.message}`);
@@ -359,8 +360,7 @@ async function createZipFile(directoryToZip, zipFilePath, containerDirName) {
             }
         });
 
-        // Set up an event listener for the 'error' event to reject the
-        // promise if any error occurs during archiving.
+        // Set up an event listener for the 'error' event to reject the promise if any error occurs during archiving.
         archive.on("error", function (err) {
             reject(err);
         });
@@ -371,8 +371,8 @@ async function createZipFile(directoryToZip, zipFilePath, containerDirName) {
         // Add the directory to the archive, under the provided directory name.
         archive.directory(directoryToZip, containerDirName);
 
-        // Finalize the archive, indicating that no more files will be added and
-        // triggering the 'close' event once all data has been written.
+        // Finalize the archive, indicating that no more files will be added and triggering the 'close' event once all
+        // data has been written.
         archive.finalize();
     });
 }
