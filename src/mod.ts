@@ -3,6 +3,7 @@ import { DependencyContainer } from "tsyringe";
 import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
 import { DatabaseService } from "@spt/services/DatabaseService";
 import { ItemHelper } from "@spt/helpers/ItemHelper";
+import { IHideoutConfig } from "@spt/models/spt/config/IHideoutConfig";
 
 import config from "../config/config.json";
 import defaultRewards = require("../db/Default.json");
