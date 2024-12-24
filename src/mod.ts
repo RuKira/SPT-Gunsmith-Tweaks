@@ -47,8 +47,8 @@ class Mod implements IPostDBLoadMod {
                     questTable[quest].description = descriptions[quest].description;
 			    }
     	    }
-		    else console.log(`${logPrefix} Gunsmith tweaks are disabled.`);
         }
+        else console.log(`${logPrefix} Gunsmith tweaks are disabled.`);
 	}
 }
 
