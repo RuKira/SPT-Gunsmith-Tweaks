@@ -6,6 +6,7 @@ import { ItemHelper } from "@spt/helpers/ItemHelper";
 
 import config from "../config/config.json";
 import defaultRewards = require("../db/Default.json");
+import descriptions = require("../db/Descriptions.json");
 import loreAccurate = require("../db/LoreAccurate.json");
 
 class Mod implements IPostDBLoadMod {
@@ -32,7 +33,7 @@ class Mod implements IPostDBLoadMod {
                 }
             }
 			if (config.LoreAccurate) { // Enable or disable lore accurate rewards
-				console.log(`${logPrefix} Lore accurate rewards enabled.`);
+				if (config.debugLogging) console.log(`${logPrefix} Lore accurate rewards enabled.`);
 				for (const quest in loreAccurate) {
 					const gunsmithQuest = loreAccurate[quest]
 					for (const reward in gunsmithQuest) {
@@ -42,10 +43,12 @@ class Mod implements IPostDBLoadMod {
 						}
 						questTable[quest].rewards.Started.push(gunsmithQuest[reward]);
 					}
-				}
-			}
-    	}
-		else console.log(`${logPrefix} Gunsmith tweaks are disabled.`);
+                    if (config.debugLogging) console.log(`${logPrefix} Quest: ${questTable[quest].QuestName} || Description: ${descriptions[quest].description}`);
+                    questTable[quest].description = descriptions[quest].description;
+			    }
+    	    }
+        }
+        else console.log(`${logPrefix} Gunsmith tweaks are disabled.`);
 	}
 }
 

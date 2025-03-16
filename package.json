@@ -1,14 +1,11 @@
 {
     "name": "GunsmithTweaks",
-    "version": "3.0.0",
-    "sptVersion": "^3.10",
-    "author": "RuKira",
-    "contributors": [],
-    "license": "MIT",
-    "isBundleMod": false,
+    "version": "3.0.1",
+    "sptVersion": "~3.11",
     "loadBefore": [],
     "loadAfter": [],
     "incompatibilities": [],
+    "isBundleMod": false,
     "main": "src/mod.js",
     "scripts": {
         "setup": "npm i",
@@ -25,7 +22,10 @@
         "ignore": "^5.2",
         "os": "^0.1",
         "tsyringe": "4.8.0",
-        "typescript": "5.4",
+        "typescript": "5.8",
         "winston": "3.12"
-    }
+    },
+    "author": "RuKira",
+    "contributors": ["jehree", "Dirkbikercj", "AcidPhantasm", "Keeper317"],
+    "license": "MIT"
 }
