@@ -45,13 +45,13 @@ public class Main(
 {
     private ModConfig? _modConfig;
 
-    private Dictionary<MongoId, Quest> _quests = new();
+    private Dictionary<MongoId, Quest> _quests = [];
     private HashSet<MongoId> _editableSet = [];
 
     private string _defaultPath = "", _loreAccuratePath = "", _descriptionsPath = "";
     private int _defaultRewardsAdded, _defaultQuestsTouched, _loreRewardsAdded, _loreQuestsTouched, _descUpdated;
 
-    private readonly List<MongoId>
+    private static readonly IReadOnlyList<MongoId>
         _gunsmithQuest = // Sorry Acid, borrowing this for the time being - I technically had something similar already setup, just wasn't ready to use it...
         [
             "5ac23c6186f7741247042bad", // Gunsmith 1
@@ -81,7 +81,7 @@ public class Main(
             "64f83bd983cfca080a362c82" // Gunsmith 25
         ];
 
-    public Task OnLoad()
+    public async Task OnLoad()
     {
         logger.Info("[Gunsmith Tweaks] Applying Gunsmith tweaks…");
 
@@ -98,11 +98,11 @@ public class Main(
 
         if (_modConfig.DefaultRewards)
         {
-            DefaultRewards();
+            await DefaultRewards();
             if (_modConfig.LoreAccurate)
             {
-                LoreAccurateRewards();
-                DescriptionRewards();
+                await LoreAccurateRewards();
+                await DescriptionRewards();
             }
             else
             {
@@ -114,7 +114,7 @@ public class Main(
             if (_modConfig.DebugLogging) logger.Info("[Gunsmith Tweaks] Mod Disabled");
         }
 
-        if (!_modConfig.DebugLogging) return Task.CompletedTask;
+        if (!_modConfig.DebugLogging) return;
 
         if (_modConfig.DefaultRewards)
             logger.Info(
@@ -124,14 +124,14 @@ public class Main(
         if (_modConfig.LoreAccurate) logger.Info(
                 $"[Gunsmith Tweaks] Descriptions: updated {_descUpdated} quests.");
 
-        return Task.CompletedTask;
+        return;
     }
 
-    private void DefaultRewards()
+    private async Task DefaultRewards()
     {
         // Load file
-        var defaultsDict = json.DeserializeFromFile<Dictionary<string, List<Reward>>>(_defaultPath)
-                           ?? new Dictionary<string, List<Reward>>();
+        var defaultsDict = await json.DeserializeFromFileAsync<Dictionary<string, List<Reward>>>(_defaultPath)
+                           ?? throw new NullReferenceException("Could not deserialize default rewards!");
 
         logger.Info($"[Gunsmith Tweaks] Default.json entries: {defaultsDict.Count}");
 
@@ -210,12 +210,12 @@ public class Main(
     }
 
 
-    private void LoreAccurateRewards()
+    private async Task LoreAccurateRewards()
     {
         logger.Info("[Gunsmith Tweaks] Lore accurate rewards enabled.");
 
-        var loreDict = json.DeserializeFromFile<Dictionary<string, List<Reward>>>(_loreAccuratePath)
-                       ?? new Dictionary<string, List<Reward>>();
+        var loreDict = await json.DeserializeFromFileAsync<Dictionary<string, List<Reward>>>(_loreAccuratePath) ??
+            throw new NullReferenceException("Could not deserialize lore accurate rewards!");
 
         foreach (var (questKey, rewards) in loreDict)
         {
@@ -248,10 +248,10 @@ public class Main(
         }
     }
 
-    private void DescriptionRewards()
+    private async Task DescriptionRewards()
     {
-        var descDict = json.DeserializeFromFile<Dictionary<string, Description>>(_descriptionsPath)
-                       ?? new Dictionary<string, Description>();
+        var descDict = await json.DeserializeFromFileAsync<Dictionary<string, Description>>(_descriptionsPath)
+                       ?? throw new NullReferenceException("Could not deserialize description rewards!");
 
         foreach (var (questKey, entry) in descDict)
         {
