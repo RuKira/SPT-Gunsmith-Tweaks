@@ -129,84 +129,42 @@ public class Main(
 
     private async Task DefaultRewards()
     {
-        // Load file
         var defaultsDict = await json.DeserializeFromFileAsync<Dictionary<string, List<Reward>>>(_defaultPath)
                            ?? throw new NullReferenceException("Could not deserialize default rewards!");
 
-        logger.Info($"[Gunsmith Tweaks] Default.json entries: {defaultsDict.Count}");
-
         foreach (var (questKey, rewards) in defaultsDict)
         {
-            // 1) Basic key/reward presence
-            if (string.IsNullOrWhiteSpace(questKey))
-            {
-                logger.Warning("[Gunsmith Tweaks] Default: skip entry with empty quest key.");
-                continue;
-            }
+            if (string.IsNullOrWhiteSpace(questKey)) continue;
+            
+            if (rewards.Count == 0) continue;
 
-            if (rewards is null || rewards.Count == 0)
-            {
-                logger.Warning($"[Gunsmith Tweaks] Default: quest '{questKey}' has no rewards; skipping.");
-                continue;
-            }
+            if (!MongoId.IsValidMongoId(questKey)) continue;
 
-            if (_modConfig.DebugLogging)
-                logger.Info($"[Gunsmith Tweaks] Default: processing questKey={questKey}, rewards={rewards.Count}");
-
-            // 2) Validate quest id format
-            if (!MongoId.IsValidMongoId(questKey))
-            {
-                logger.Warning($"[Gunsmith Tweaks] Default: questKey '{questKey}' is not a valid MongoId; skipping.");
-                continue;
-            }
-
-            // 3) Find quest in DB
             var questId = new MongoId(questKey);
-            if (!_quests.TryGetValue(questId, out var quest))
-            {
-                logger.Warning($"[Gunsmith Tweaks] Default: quest '{questKey}' not found in DB; skipping.");
-                continue;
-            }
+            if (!_quests.TryGetValue(questId, out var quest)) continue;
 
-            // 4) Ensure we’re allowed to edit this quest
-            if (!_editableSet.Contains(questId))
-            {
-                if (_modConfig.DebugLogging)
-                    logger.Info(
-                        $"[Gunsmith Tweaks] Default: '{quest.QuestName}' ({questKey}) not in editable set; skipping.");
-                continue;
-            }
+            if (!_editableSet.Contains(questId)) continue;
 
-            // 5) Ensure reward bucket + apply
             quest.Rewards ??= new Dictionary<string, List<Reward>>();
-            if (!quest.Rewards.TryGetValue("Started", out var started) || started is null)
+            if (!quest.Rewards.TryGetValue("Started", out var started))
             {
                 started = [];
                 quest.Rewards["Started"] = started;
-                if (_modConfig.DebugLogging)
-                    logger.Info($"[Gunsmith Tweaks] Default: created 'Started' bucket for '{quest.QuestName}'.");
             }
 
             started.AddRange(rewards);
 
-            _defaultRewardsAdded += rewards.Count; // count rewards added
-            _defaultQuestsTouched += 1; // count quests touched
-
-            // 6) Per-reward debug detail
-            if (_modConfig.DebugLogging)
+            _defaultRewardsAdded += rewards.Count;
+            _defaultQuestsTouched += 1;
+            
+            if (_modConfig is not { DebugLogging: true }) continue;
+            foreach (var r in rewards)
             {
-                foreach (var r in rewards)
-                {
-                    var tpl = r.Items?.FirstOrDefault()?.Template.ToString();
-                    var name = !string.IsNullOrEmpty(tpl) ? itemHelper.GetItemName(tpl) : "(no item)";
-                    logger.Info(
-                        $"[Gunsmith Tweaks] Default: Quest='{quest.QuestName}' ({questKey}) || Reward={name} (tpl={tpl ?? "null"})");
-                }
+                var tpl = r.Items?.FirstOrDefault()?.Template.ToString();
+                var name = !string.IsNullOrEmpty(tpl) ? itemHelper.GetItemName(tpl) : "(no item)";
+                logger.Info($"[Gunsmith Tweaks] Quest: {quest.QuestName} || Reward: {name})");
             }
         }
-
-        logger.Info(
-            $"[Gunsmith Tweaks] Default: applied {_defaultRewardsAdded} rewards to {_defaultQuestsTouched} quests.");
     }
 
 
