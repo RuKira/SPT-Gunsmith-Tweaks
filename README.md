@@ -45,6 +45,8 @@ This mod may branch out into something bigger, we see.
 
 ## Special Thanks
 
+@archangel - for helping me get this project updated to SPT ~4.0.0
+
 @dirtbikercj - For helping me get started, showing me how to make this mod, and explaining how to rework my mod.
 
 @acidphantasm - Helping me debug why my mod was failing, and helping rework my mod to fit a better flow provided by Cj.
