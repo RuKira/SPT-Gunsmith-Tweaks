@@ -1,32 +1,33 @@
 using System.Reflection;
 using System.Text.Json.Serialization;
+using SPTarkov.Common.Models.Logging;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
-using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Helpers.Items;
+using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Mod;
-using SPTarkov.Server.Core.Models.Utils;
-using SPTarkov.Server.Core.Services;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Utils;
 using Path = System.IO.Path;
 using Reward = SPTarkov.Server.Core.Models.Eft.Common.Tables.Reward;
 
 namespace GunsmithTweaks;
 
-public record ModMetadata : AbstractModMetadata
+public record ModMetadata : IModMetadata
 {
-    public override string ModGuid { get; init; } = "com.rukiragaming.gunsmithtweaks";
-    public override string Name { get; init; } = "GunsmithTweaks";
-    public override string Author { get; init; } = "Ru_Kira";
-    public override List<string>? Contributors { get; init; }
-    public override SemanticVersioning.Version Version { get; init; } = new("4.0.0");
-    public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.0");
-    public override List<string>? Incompatibilities { get; init; }
-    public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
-    public override string? Url { get; init; }
-    public override bool? IsBundleMod { get; init; }
-    public override string? License { get; init; } = "MIT";
+    public string ModGuid { get; init; } = "com.rukiragaming.gunsmithtweaks";
+    public string Name { get; init; } = "GunsmithTweaks";
+    public string Author { get; init; } = "Ru_Kira";
+    public List<string>? Contributors { get; init; }
+    public SemanticVersioning.Version Version { get; init; } = new("4.1.0");
+    public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.0");
+    public bool HasPrepatcher { get; init; }
+    public List<string>? Incompatibilities { get; init; }
+    public Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
+    public string? Url { get; init; }
+    public string? License { get; init; } = "MIT";
 }
 
 public sealed class Description
@@ -34,10 +35,10 @@ public sealed class Description
     [JsonPropertyName("description")] public string? Desc { get; set; }
 }
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class Main(
     ISptLogger<Main> logger,
-    DatabaseService databaseService,
+    TemplateTable templateTable,
     ItemHelper itemHelper,
     JsonUtil json,
     ModHelper modHelper
@@ -81,7 +82,7 @@ public class Main(
             "64f83bd983cfca080a362c82" // Gunsmith 25
         ];
 
-    public async Task OnLoad()
+    public async Task OnLoadAsync(CancellationToken cancellationToken)
     {
         logger.Info("[Gunsmith Tweaks] Applying Gunsmith tweaks…");
 
@@ -93,7 +94,7 @@ public class Main(
         _loreAccuratePath = Path.Combine(pathToMod, "db", "LoreAccurate.json");
         _descriptionsPath = Path.Combine(pathToMod, "db", "Descriptions.json");
 
-        _quests = databaseService.GetQuests();
+        _quests = templateTable.Quests;
         _editableSet = new HashSet<MongoId>(_gunsmithQuest);
 
         if (_modConfig.DefaultRewards)
@@ -227,7 +228,7 @@ public class Main(
             logger.Info($"[Gunsmith Tweaks] Description set for '{quest.QuestName}'");
         }
     }
-
+    
     public class ModConfig
     {
         public bool DefaultRewards { get; set; }
